@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './css/index.css';
 import Header from './components/header';
 import MemeChoser from './components/imageChooser';
+import Modal from './components/Modal';
 
 //images import:
 import black from './images/memes/black.jpg';
@@ -40,12 +41,31 @@ class App extends Component {
     })
   }
 
+  handleClose = () => {
+    this.setState({
+      id: '',
+      chosed: false,
+      topText: '',
+      bottomText: ''
+    })
+  }
+
+  handleTextChange = (e) =>{
+    const name = e.target.name
+    const value = e.target.value
+    this.setState({
+      [name]: value
+    })
+  }
+
   render(){
     return(
       <div className="wrapper">
         <Header/>
         <MemeChoser list={memesList} click={this.handleClickOnMeme}/>
-        
+        {this.state.chosed 
+          ? <Modal close={this.handleClose} changeText={this.handleTextChange} state={this.state}/> 
+          : null}
       </div>
     )
   };
