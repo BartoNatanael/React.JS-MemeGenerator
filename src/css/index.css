@@ -21,18 +21,16 @@
 }
 
 .MemeChooser__memes {
-  display: -ms-grid;
-  display: grid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -30px;
   padding: 50px 15px 15px;
-  -ms-grid-columns: (minmax(205px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(205px, 1fr));
-  gap: 15px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+}
+
+.MemeChooser__column {
+  padding-left: 30px;
+  background-clip: padding-box;
 }
 
 .MemeChooser__meme {
