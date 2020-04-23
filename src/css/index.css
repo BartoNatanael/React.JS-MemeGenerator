@@ -91,4 +91,13 @@
   -ms-grid-row: 4;
   grid-row: 4;
 }
+
+.Modal__meme {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 4;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  grid-row: 2/5;
+}
 /*# sourceMappingURL=index.css.map */

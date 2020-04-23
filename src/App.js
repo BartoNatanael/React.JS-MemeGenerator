@@ -64,7 +64,7 @@ class App extends Component {
         <Header/>
         <MemeChoser list={memesList} click={this.handleClickOnMeme}/>
         {this.state.chosed 
-          ? <Modal close={this.handleClose} changeText={this.handleTextChange} state={this.state}/> 
+          ? <Modal close={this.handleClose} changeText={this.handleTextChange} state={this.state} memesList={memesList}/> 
           : null}
       </div>
     )
