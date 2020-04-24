@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/React.JS-MemeGenerator/static/css/main.212670d5.chunk.css",
+    "main.js": "/React.JS-MemeGenerator/static/js/main.ba50c437.chunk.js",
+    "main.js.map": "/React.JS-MemeGenerator/static/js/main.ba50c437.chunk.js.map",
+    "runtime-main.js": "/React.JS-MemeGenerator/static/js/runtime-main.594f7231.js",
+    "runtime-main.js.map": "/React.JS-MemeGenerator/static/js/runtime-main.594f7231.js.map",
+    "static/js/2.f6c6b61f.chunk.js": "/React.JS-MemeGenerator/static/js/2.f6c6b61f.chunk.js",
+    "static/js/2.f6c6b61f.chunk.js.map": "/React.JS-MemeGenerator/static/js/2.f6c6b61f.chunk.js.map",
+    "index.html": "/React.JS-MemeGenerator/index.html",
+    "precache-manifest.89bb9e51a54cd70392267ea077a98902.js": "/React.JS-MemeGenerator/precache-manifest.89bb9e51a54cd70392267ea077a98902.js",
+    "service-worker.js": "/React.JS-MemeGenerator/service-worker.js",
+    "static/css/main.212670d5.chunk.css.map": "/React.JS-MemeGenerator/static/css/main.212670d5.chunk.css.map",
+    "static/js/2.f6c6b61f.chunk.js.LICENSE.txt": "/React.JS-MemeGenerator/static/js/2.f6c6b61f.chunk.js.LICENSE.txt",
+    "static/media/blackkid.jpg": "/React.JS-MemeGenerator/static/media/blackkid.f33ac0e8.jpg",
+    "static/media/bob.jpg": "/React.JS-MemeGenerator/static/media/bob.82f084d5.jpg",
+    "static/media/butter.jpg": "/React.JS-MemeGenerator/static/media/butter.e9c67441.jpg",
+    "static/media/cat.jpg": "/React.JS-MemeGenerator/static/media/cat.0796c4d6.jpg",
+    "static/media/death.jpg": "/React.JS-MemeGenerator/static/media/death.69d8c4f1.jpg",
+    "static/media/funnykid.jpg": "/React.JS-MemeGenerator/static/media/funnykid.04476b01.jpg",
+    "static/media/guys.png": "/React.JS-MemeGenerator/static/media/guys.db341d75.png",
+    "static/media/kid.jpg": "/React.JS-MemeGenerator/static/media/kid.881d35c4.jpg",
+    "static/media/killerdoge.jpg": "/React.JS-MemeGenerator/static/media/killerdoge.76ace3bb.jpg",
+    "static/media/logo.png": "/React.JS-MemeGenerator/static/media/logo.778d2a6d.png",
+    "static/media/money.png": "/React.JS-MemeGenerator/static/media/money.b75db761.png",
+    "static/media/noszacz.jpg": "/React.JS-MemeGenerator/static/media/noszacz.12406578.jpg",
+    "static/media/papiez.jpg": "/React.JS-MemeGenerator/static/media/papiez.8428a98c.jpg",
+    "static/media/pikachu.jpg": "/React.JS-MemeGenerator/static/media/pikachu.cb1ff076.jpg",
+    "static/media/rex.jpg": "/React.JS-MemeGenerator/static/media/rex.36a49841.jpg",
+    "static/media/smilebob.jpg": "/React.JS-MemeGenerator/static/media/smilebob.1bcc4eab.jpg",
+    "static/media/tablecat.png": "/React.JS-MemeGenerator/static/media/tablecat.04db8676.png",
+    "static/media/whatif.jpg": "/React.JS-MemeGenerator/static/media/whatif.e0b35ef9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.594f7231.js",
+    "static/js/2.f6c6b61f.chunk.js",
+    "static/css/main.212670d5.chunk.css",
+    "static/js/main.ba50c437.chunk.js"
+  ]
+}
