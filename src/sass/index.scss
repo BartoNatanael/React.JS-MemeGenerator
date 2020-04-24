@@ -3,8 +3,12 @@
     padding: 0;
     font-family: arial;
   }
+html{
+  background-color: rgb(169, 179, 199);
+}
 
 .wrapper{
+    background-color: white;
     max-width: 1200px;
     margin: 0 auto;
     box-shadow: 0 0 4px 0 #000;
@@ -12,22 +16,33 @@
 
 
   }
+
+.header{
+  text-align: center;
+  &__img{
+    width: 75%;
+  }
+  &__author-link{
+    color: black;
+    text-decoration: none;
+  }
+}
   
 .MemeChooser{
 
    padding-top: 50px;
     &__title{
       text-align: center;
+      background-color: rgb(169, 179, 199);
+      margin: 0 25%;
+      padding: 10px 0;
+      border-radius: 10px;
     }
     &__memes{
       
         display: flex;
         margin-left: -30px;
         padding: 50px 15px 15px;
-        // grid-template-columns: repeat(auto-fill, minmax(205px, 1fr));
-        //   gap: 15px;
-        //   justify-content: center;
-        //   align-items: center;
     }
 
     &__column{
@@ -38,6 +53,14 @@
     &__meme{
         width: 100%;
         cursor: pointer;
+    }
+
+    &__author-link{
+      display: block;
+      text-align: center;
+      margin: 20px auto;
+      padding-bottom: 20px;
+      color: black;
     }
   }
 
@@ -66,7 +89,9 @@
     }
 
     &__input{
-
+      margin-left: 10px;
+      padding: 10px 20px;
+      border: none;
 
       &--top{
         grid-column: 4;
@@ -76,16 +101,30 @@
         grid-column: 4;
         grid-row: 3;
       }
+
+      &:focus{
+        box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.75);
+      }
     }
     &__btn{
       grid-column: 4;
       grid-row: 4;
+
+      margin-left: 10px;
     }
     &__meme{
       grid-column-start: 2;
       grid-column-end: 4;
-      grid-row:2/5
+      grid-row:2/5;
     }
+
+  }
+
+  text{
+    // color: white;
+    font-size: 50px;
+    // font-weight: 800;
+    // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
 
   

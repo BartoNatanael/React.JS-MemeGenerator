@@ -13,7 +13,7 @@ const MemeChoser = (props) => {
     const memes = props.list.map(meme => <img src={meme.meme} key={meme.id} alt="" className="MemeChooser__meme" onClick={() => props.click(meme.id)}/>)
     return ( 
         <div className="MemeChooser">
-            <h1 className="MemeChooser__title">Choose your image</h1>
+            <h1 className="MemeChooser__title">Choose your image:</h1>
             {/* <div className="MemeChooser__memes"> */}
                 
             {/* </div> */}
@@ -24,6 +24,7 @@ const MemeChoser = (props) => {
                 >
                 {memes}
             </Masonry>
+            <a href="https://github.com/BartoNatanael" className="MemeChooser__author-link">Bartłomiej Nowak</a>
         </div>
      );
 }

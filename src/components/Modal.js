@@ -19,6 +19,15 @@ const convertSvgToImage = () => {
           a.click();
         };
       }
+
+const textStyle = {
+  fontFamily: "Impact",
+  textTransform: "uppercase",
+  fill: "#FFF",
+  stroke: "#000",
+  userSelect: "none"
+}
+
 const Modal = (props) => {
 
     const { close, changeText, memesList } = props
@@ -30,33 +39,32 @@ const Modal = (props) => {
         <div className="Modal">
             {/* close icon */}
             <i className="Modal__close fas fa-times"  aria-hidden="true" onClick={close}></i>
+
             {/* form with Download btn */}
             <input type="text" className="Modal__input Modal__input--top" name="topText" placeholder="Top text" value={topText} onChange={changeText}/>
             <input type="text" className="Modal__input Modal__input--bottom" name="bottomText" placeholder="Bottom text" value={bottomText} onChange={changeText}/>
             <button className="Modal__btn" onClick={convertSvgToImage}>Download</button>
             {/* meme */}
+
             <svg className="Modal__meme" width="500px" height="350px">
-            
-            <image  height="350px" href={memesList[id].meme}/>
+            <image className="Modal__meme-image" height="350px" transform="translate(-50%,-50%)" href={memesList[id].meme}/>
+            {/* text on the top */}
             <text
-                // style={{ ...textStyle, zIndex: this.state.isTopDragging ? 4 : 1 }}
-                x="250"
-                y="25"
+                style={textStyle}
+                x="50%"
+                y="10%"
                 dominantBaseline="middle"
                 textAnchor="middle"
-                // onMouseDown={event => this.handleMouseDown(event, 'top')}
-                // onMouseUp={event => this.handleMouseUp(event, 'top')}
               >
                   {topText}
               </text>
+              {/* text on the bottom */}
               <text
-                // style={textStyle}
+                style={textStyle}
+                x="50%"
+                y="90%"
                 dominantBaseline="middle"
                 textAnchor="middle"
-                x="250"
-                y="325"
-                // onMouseDown={event => this.handleMouseDown(event, 'bottom')}
-                // onMouseUp={event => this.handleMouseUp(event, 'bottom')}
               >
                   {bottomText}
               </text>
