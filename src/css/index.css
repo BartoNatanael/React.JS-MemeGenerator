@@ -130,6 +130,9 @@ html {
   -ms-grid-row: 4;
   grid-row: 4;
   margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: white;
 }
 
 .Modal__meme {
